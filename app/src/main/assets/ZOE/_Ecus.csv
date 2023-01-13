@@ -1,5 +1,4 @@
 # Descriptive name, Renault ID, Network (s), From ID, To ID, Mnemonic, Alias(ses), GetDtc responseID (s),  startDiag, Session required
-# If more than one, semicolon separated
 Electric Vehicle Controller,946,V;E,7ec,7e4,EVC,SCH,5902af,50c0,0
 Telematics Control Unit,2152,V;M,7da,7ca,DCM,TCU,5902ff,50c0,0
 Lithium Battery Controller,938,E,7bb,79b,LBC,-,59020f,50c0,0
