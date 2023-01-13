@@ -1,4 +1,4 @@
-ID (hex), startBit, endBit, resolution, offset (applied BEFORE resolution multiplication), decimals, unit, requestID (hex string), responseID (hex string), options (hex, see MainActivity for definitions), optional name, optional list
+ID (hex), startBit, endBit, resolution, offset (applied BEFORE resolution multiplication), decimals, unit, requestID, responseID, options, optional, list
 130,44,55,-3,4094,0,Nm,,,ff,DriverBrakeWheelTq_Req
 186,16,27,0.5,800,1,Nm,,,ff,MeanEffectiveTorque
 186,40,49,0.125,0,1,%,,,ff,Throttle
