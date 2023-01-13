@@ -69,7 +69,7 @@ CLUSTER,,,,,,,,,,
 CLIM,,,,,,,,,,
 764,26,35,0.1,400,1,°C,2121,6121,ff,IH_InCarTemp
 764,36,43,1,0,0,%,2121,6121,ff,IH_RHumidity
-764,86,87,1,0,0,,2143,6143,ff,IH_EcoModeRequest,0:Unavailable Value;1:Eco mode requested;2:Eco mode not requested;3:Not used
+764,86,87,1,0,0,,2143,6143,ff,IH_EcoModeRequest 0:Unavailable Value;1:Eco mode requested;2:Eco mode not requested;3:Not used
 764,88,92,100,0,0,W,2143,6143,ff,IH_ElectricalPowerDrived
 764,110,117,1,40,0,°C,2143,6143,ff,IH_ExternalTemp
 764,134,142,.1,0,1,bar,2143,6143,ff,IH_ACHighPressureSensor
@@ -144,7 +144,7 @@ BCB,,,,,,,,,,
 793,24,39,.0625,3200,2,A,222001,622001,ff,Mains phase 1 current RMS value
 793,24,39,.0625,3200,2,A,22503A,62503A,ff,Mains phase 2 current RMS
 793,24,39,.0625,3200,2,A,22503B,62503B,ff,Mains phase 3 current RMS
-793,29,31,1,0,0,,225017,625017,ff,Mains current type,0:Nok;1:AC mono;2:AC tri;3:DC;4:AC bi
+793,29,31,1,0,0,,225017,625017,ff,Mains current type 0:Nok;1:AC mono;2:AC tri;3:DC;4:AC bi
 793,24,39,.5,32000,1,V,22502C,62502C,ff,Raw AC mains phase 1 measured voltage
 793,24,39,.5,32000,1,V,22502D,62502D,ff,Raw AC mains phase 2 measured voltage
 793,24,39,.5,32000,1,V,22502E,62502E,ff,Raw AC mains phase 3 measured voltage
@@ -153,8 +153,8 @@ BCB,,,,,,,,,,
 793,24,39,.5,0,1,V,225042,625042,ff,Mains phase 3-1 voltage RMS value
 793,24,39,1,20000,0,W,22504A,62504A,ff,Mains active power consumed
 793,24,39,1,0,0,Ohm,225062,625062,ff,Mains ground resistance
-793,24,31,1,0,0,,225063,625063,ff,Supervisor state,0:Init;1:Wait;2:ClosingS2;3:InitType;4:InitLkg;5:InitChg;6:Charge;7:ZeroAmpMode;8:EndOfChg;9:OpeningS2;10:ReadyToSleep;11:EmergencyStop;12:InitChargeDF;13:OCPStop;14:WaitS2
-793,24,31,1,0,0,,225064,625064,ff,Leakage current diagnostic stored completion status,0:init;1:HF10;3:Mains Ground Default;5:Earth Current default;9:Ground Default;17:Means Leakage DC;33:Means Leakage LF;49:Means Leakage DC+LF;65:Means Leakage HF;81:Means Leakage DC+HF;97:Means Leakage LF+HF;113:Means Leakage DC+LF+HF
+793,24,31,1,0,0,,225063,625063,ff,Supervisor state 0:Init;1:Wait;2:ClosingS2;3:InitType;4:InitLkg;5:InitChg;6:Charge;7:ZeroAmpMode;8:EndOfChg;9:OpeningS2;10:ReadyToSleep;11:EmergencyStop;12:InitChargeDF;13:OCPStop;14:WaitS2
+793,24,31,1,0,0,,225064,625064,ff,Leakage current diagnostic stored completion status 0:init;1:HF10;3:Mains Ground Default;5:Earth Current default;9:Ground Default;17:Means Leakage DC;33:Means Leakage LF;49:Means Leakage DC+LF;65:Means Leakage HF;81:Means Leakage DC+HF;97:Means Leakage LF+HF;113:Means Leakage DC+LF+HF
 LBC2,,,,,,,,,,
 7b6,56,63,1,0,0,,2180,6180,ff,diagVersion
 7b6,64,87,1,0,0,,2180,6180,2ff,Supplier (string!)
